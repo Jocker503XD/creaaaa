@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.main{
+    padding-top: 8vw;
+    display:flex;
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.section-iz{
+    width: 60%;
+    height: 40%;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.titulo{
+    padding-bottom: 50px;
+}
+
+.texto{
+    background-color: rgba(255, 253, 253, 0.37);
+    margin: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.principal{
+    margin: 30px;
+}
+
+i{
+    margin: 5%;
+    display: flex;
+    font-size: 30px;
+}
+
+
+.aside-de{
+ background-color: rgba(0,0,0,0.2);
+color: rgba(0, 0, 0, 0.8);
+border: 5px solid rgba(255, 0, 0, 0.2);
+box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+    width: 35%;
+    height: 40%;
+    position: relative;
+    margin: 20px;
+    border-radius: 30px;
+
+}
+
+.contai{
+    background-color: wheat;
+    display: inline-block;
+    width: 50%;
+
+}
+
+.boton {
+    width: auto;
+    margin: 20px;
+    border-radius: 30px;
+    height: auto;
+}
+
+.main a{
+    text-decoration: none;
+    color: black;
+}
+
+.image{
+    max-width: 200px;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 930px) {
+    .main{
+        padding-top: 19vw;
+        display:block;
+        width: 95%;
+        display: flex;
+        height: auto;
+    }
+    .main Button {
+        margin-top: 30px;
+        width: 60%;
+        border-radius: 20px;
+        margin: 20px;
+        height: 40px;
+    }
+
+    .section-iz{
+        width: 98%;
+        height: 60%;
+        margin: 20px;
+        
+    }
+    
+    .aside-de{
+        width: 93%;
+        height: 60%;
+        margin: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .main{
+
+        width: 98%;
+        margin: 10px;
+        display: inline-block;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .main Button {
+        margin-top: 30px;
+        width: 110px;
+        align-items: center;
+        padding: 0%;
+        margin: 10px;
+        height: 60px;
+    }
+
+    .section-iz{
+        width: 93%;
+        height: 100%;
+        margin: 20px;
+        
+    }
+    
+    .aside-de{
+        width: 93%;
+        height: 100%;
+        margin: 10px;
+    }
+    
+}
